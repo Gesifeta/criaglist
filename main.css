@@ -31,3 +31,97 @@ p.more {
 }
 
 /* Your code here */
+*{
+  font-family:"Helvetica Neue","Helvetica", sans-serif;
+  background-color: #f5f5f5;
+  color: #464646;
+
+}
+a{
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+}
+ul > li{
+  list-style: none;
+}
+a:visited{
+  color: #800080;
+}
+a:hover{
+  font-weight: bold;
+  color: #800080;
+}
+a span:hover{
+    font-weight: bold;
+      color: #800080;
+}
+.page-container{
+  max-width: 1200px;
+
+}
+#leftbar, #center , #rightbar{
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+}
+footer{
+  clear: both;
+}
+#leftbar,#rightbar{
+  width: 25%;
+}
+#center{
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+#center > div{
+  float: left;
+  width: 33%;
+}
+#topban h2{
+  text-align: center;
+}
+footer  .clfooter{
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+  
+}
+
+.clfooter li{
+  display: inline;
+  padding-right: 5px;
+}
+.ban::before{
+  content: '☮';
+  background-color: #800080;
+  border-radius: 5px;
+ padding: 2px;
+ margin: 2px;
+  color: white;
+  
+}
+/*bonus on calander formating*/
+td{
+  border: 1px solid #333;
+  color: black;
+  opacity: .5;
+}
+td:hover{
+   cursor: not-allowed;
+}
+.cal{
+  border-collapse: collapse;
+  text-align: center;
+}
+table a{
+  color: green;
+  font-weight: bold;
+
+}
+.cal a:hover{
+  cursor: pointer;
+}
